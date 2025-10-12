@@ -52,7 +52,7 @@ export const useLocalizedData = () => {
   interface SocialsProps {
     name: string;
     href: string;
-    icon: ReactElement;
+    icon: ReactElement<any>;
   }
   const socials: Array<SocialsProps> = [
     {
@@ -127,7 +127,7 @@ export const useLocalizedData = () => {
   // Contact Me
   interface ContactProps {
     name: string;
-    icon: ReactElement;
+    icon: ReactElement<any>;
   }
   const contact: Array<ContactProps> = [
     {
