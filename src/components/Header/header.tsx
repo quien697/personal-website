@@ -33,8 +33,8 @@ const Header = () => {
             <NavList className="text-right" onClick={() => setNavbar(!navbar)} />
             {/* Mobile - SettingList */}
             <SettingList
-              theme={theme || themes[0].value} 
-              curTheme={curTheme || themes[0].value} 
+              theme={theme || themes[0].value}
+              curTheme={curTheme || themes[0].value}
               language={i18n.language}
               className="flex border-t-2 bg-neutral-950 py-2 lg:hidden"
               onThemeChange={(selectedTheme) => setTheme(selectedTheme)}
@@ -55,8 +55,8 @@ const Header = () => {
           </ul>
           {/* Desk - SettingList */}
           <SettingList
-            theme={theme || themes[0].value} 
-            curTheme={curTheme || themes[0].value} 
+            theme={theme || themes[0].value}
+            curTheme={curTheme || themes[0].value}
             language={i18n.language}
             className="hidden list-none border-t-2 bg-neutral-950 lg:flex"
             onThemeChange={(selectedTheme) => setTheme(selectedTheme)}

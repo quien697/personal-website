@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface SkillButtonProps {
-  name: String;
+  name: string;
   className?: string;
 }
 

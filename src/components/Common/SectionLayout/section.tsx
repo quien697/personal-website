@@ -2,7 +2,7 @@ import React from 'react';
 
 interface SectionProps {
   id: string;
-  backgroundColor: String;
+  backgroundColor: string;
   className?: string;
   children: React.ReactNode;
 }
