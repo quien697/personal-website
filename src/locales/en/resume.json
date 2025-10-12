@@ -1,0 +1,120 @@
+{
+  "personalInfo": {
+    "name": "Tsung-Hsun Liu",
+    "email": "quien697@gmail.com",
+    "phone": "+886 0988-215-184",
+    "location": {
+      "city": "Taipei",
+      "province": "",
+      "country": "Taiwan"
+    },
+    "social": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/quien697/"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/quien697/"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/quien697/"
+      }
+    ],
+    "brief": [
+      "Hi, I'm Tsung-Hsun Liu!",
+      "You can also call me Quien.",
+      "I am Full-Stack Developer & iOS Developer in Taiwan."
+    ]
+  },
+  "aboutMe": [
+    "Hi, I'm Quien, a software developer passionate about building thoughtful, efficient, and user-centered applications.",
+    "I hold a degree in Computer Science and began my career in web development. After a brief break from the tech industry to assist with my dad's waterproofing business, I continued to freelance in software development, working on both web and mobile projects with friends and clients.",
+    "Four years ago, I moved to Vancouver, Canada, where I completed a diploma in Web and Mobile App Development. I later joined Old Moon Digital as a software developer, focusing on CMS development, primarily using Drupal and WordPress for international clients.",
+    "Now that I've returned to Taiwan, I'm shifting my focus toward iOS development, building personal projects with Swift and SwiftUI, and looking forward to contributing to real-world mobile applications."
+  ],
+  "skills": [
+    "iOS",
+    "Swift",
+    "SwiftUI",
+    "Android",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "React Native",
+    "Typescript",
+    "Node.js",
+    "C#",
+    "PHP",
+    "MYSQL",
+    "Git",
+    "GitHub"
+  ],
+    "experiences": [
+    {
+      "position": "Software Developer",
+      "company": "Old Moon Digital",
+      "location": "Burnaby, BC, Canada",
+      "date": "2024-2025",
+      "isCurrentlyWorkHere": false,
+      "detail": "Specialized in web development at Old Moon Digital, an agency focused on delivering practical solutions through Drupal for businesses, governments, and non-profit organizations, aiming to create outstanding digital experiences for their audiences."
+    },
+    {
+      "position": "Software Developer",
+      "company": "Freelance",
+      "location": "Taipei, Taiwan",
+      "date": "2018-2022",
+      "isCurrentlyWorkHere": false,
+      "detail": "As a freelance in our team, maintained websites and optimized databases is my mainly task. Also sometime worked on mobile development such as Android or iOS."
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": "Daher Information",
+      "location": "Taoyuan, Taiwan",
+      "date": "2013-2014",
+      "isCurrentlyWorkHere": false,
+      "detail": "Daher is a commercial software development company, like enterprise erp systems, POS system, financial accounting system, etc.\n I mainly help the company to optimize website more user-friendly and evelope a better performance database that increased query speed."
+    },
+    {
+      "position": "Intern Software Developer",
+      "company": "Sunlight Information",
+      "location": "Taipei, Taiwan",
+      "date": "2011-2012",
+      "isCurrentlyWorkHere": false,
+      "detail": "Sunlight is a software company. I mainly help company to develop Android mobile app with a team and maintain the existing website."
+    }
+  ],
+   "portfolios": [
+    {
+      "name": "Personal Website",
+      "status": "2023",
+      "description": "This is a simple personal website project without any backend.",
+      "image": "/assets/portfolio-personal-website.png",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "i18n"
+      ],
+      "github": "https://github.com/quien697/personal-website",
+      "link": "https://tsunghsun.me/"
+    },
+    {
+      "name": "Chatwis.ai",
+      "status": "2023",
+      "description": "It is a iOS mobile app that built on ChatGPT API technologies. We mainly use Swift for development and Storyboard for UI design. We implement using RxSwift and the MVVM structure, and we also utilize Core Data to store data locally.",
+      "image": "/assets/portfolio-chatwis.png",
+      "technologies": [
+        "iOS",
+        "Swift",
+        "RxSwift",
+        "MVVM",
+        "Core Data"
+      ],
+      "github": "",
+      "link": ""
+    }
+  ]
+}

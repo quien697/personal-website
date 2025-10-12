@@ -1,9 +1,17 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Geist, Geist_Mono } from 'next/font/google';
 import { ThemeProvider } from './theme-provider';
 
-const inter = Inter({ subsets: ['latin'] })
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: 'Tsung-Hsun Liu | Full-Stack Developer | iOS Developer',
@@ -17,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
