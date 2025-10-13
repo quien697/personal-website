@@ -1,5 +1,7 @@
 {
   "constants" : {
+    "knowMe": "Get To Know Me!",
+    "mySkills": "My Skills",
     "FULLNAME": "Tsung-Hsun Liu",
     "WELCOME": "Welcome",
     "INTRODUCE_MYSELF": "Hi, I'm Tsung-Hsun Liu!",
@@ -24,28 +26,33 @@
     "SEND_MESSAGE": "Send Message",
     "FOLLOW_ME": "Follow Me"
   },
-  "navItems": [
-    {
+  "navItems": {
+    "home": {
       "name": "Home",
-      "href": "home"
+      "value": "home",
+      "title": "Home"
     },
-    {
+    "about": {
       "name": "About",
-      "href": "about"
+      "value": "about",
+      "title": "About Me"
     },
-    {
+    "experience": {
       "name": "Experience",
-      "href": "experience"
+      "value": "experience",
+      "title": "Experience"
     },
-    {
+    "portfolio": {
       "name": "Portfolio",
-      "href": "portfolio"
+      "value": "portfolio",
+      "title": "Portfolio"
     },
-    {
+    "contact": {
       "name": "Contact",
-      "href": "contact"
+      "value": "contact",
+      "title": "Contact"
     }
-  ],
+  },
   "themes": [
     {
       "name": "System",

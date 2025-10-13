@@ -1,5 +1,7 @@
 {
   "constants" : {
+    "knowMe": "深入認識我!",
+    "mySkills": "所掌握的技能",
     "FULLNAME": "劉宗勲",
     "WELCOME": "歡迎",
     "INTRODUCE_MYSELF":"嗨, 我是 劉宗勲!",
@@ -24,28 +26,33 @@
     "SEND_MESSAGE": "發送訊息",
     "FOLLOW_ME": "請關注我"
   },
-  "navItems": [
-    {
+  "navItems": {
+    "home": {
       "name": "首頁",
-      "href": "home"
+      "value": "home",
+      "title": "Home"
     },
-    {
+    "about": {
       "name": "關於我",
-      "href": "about"
+      "value": "about",
+      "title": "About Me"
     },
-    {
+    "experience": {
       "name": "經驗",
-      "href": "experience"
+      "value": "experience",
+      "title": "Experience"
     },
-    {
+    "portfolio": {
       "name": "作品",
-      "href": "portfolio"
+      "value": "portfolio",
+      "title": "Portfolio"
     },
-    {
+    "contact": {
       "name": "聯絡我",
-      "href": "contact"
+      "value": "contact",
+      "title": "Contact"
     }
-  ],
+  },
   "themes": [
     {
       "name": "系統",

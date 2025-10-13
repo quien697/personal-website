@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { useLocalizedData } from '@/data';
+import { useUIData } from '@/hooks/useUIData';
 
 interface SettingListProps {
   className: string;
@@ -8,26 +8,25 @@ interface SettingListProps {
 }
 
 const NavList: React.FC<SettingListProps> = ({ className, onClick }) => {
-  const { navItems } = useLocalizedData();
+  const { navItems } = useUIData();
 
   return (
     <ul className={`flex-col py-4 ${className}`}>
-      {navItems.map((item) => {
-        return (
-          <li key={item.name} className="py-2 w-full lg:py-3">
-            <Link 
-              to={item.href} 
-              activeClass="text-blue-600 font-bold" 
-              spy
-              smooth
-              duration={500} 
-              className="cursor-pointer hover:text-blue-600 hover:font-bold" 
-              onClick={onClick}
-            >
-              {item.name}</Link>
-          </li>
-        )
-      })}
+      {Object.values(navItems).map((item, idx) => (
+        <li key={idx} className="py-2 w-full lg:py-3">
+          <Link
+            to={item.value}
+            activeClass="text-primary font-bold"
+            spy
+            smooth
+            duration={500}
+            className="cursor-pointer hover:text-primary hover:font-bold"
+            onClick={onClick}
+          >
+            {item.name}
+          </Link>
+        </li>
+      ))}
     </ul>
   )
 }

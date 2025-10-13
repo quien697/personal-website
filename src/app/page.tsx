@@ -1,5 +1,6 @@
 // Sections
 import Hero from '@/components/Sections/Hero';
+import About from '@/components/Sections/About';
 // Components
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -15,7 +16,7 @@ export default function Home() {
       <Header />
       <main className="block">
         <Hero />
-        <AboutSection />
+        <About />
         <ExperienceSection />
         <PortfolioSection />
         <ContactSection />
