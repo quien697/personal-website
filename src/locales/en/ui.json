@@ -2,6 +2,9 @@
   "constants" : {
     "knowMe": "Get To Know Me!",
     "mySkills": "My Skills",
+    "technologies": "Technologies",
+    "website": "Website",
+
     "FULLNAME": "Tsung-Hsun Liu",
     "WELCOME": "Welcome",
     "INTRODUCE_MYSELF": "Hi, I'm Tsung-Hsun Liu!",

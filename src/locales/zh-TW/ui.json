@@ -2,6 +2,9 @@
   "constants" : {
     "knowMe": "深入認識我!",
     "mySkills": "所掌握的技能",
+    "technologies": "相關技術",
+    "website": "網站",
+
     "FULLNAME": "劉宗勲",
     "WELCOME": "歡迎",
     "INTRODUCE_MYSELF":"嗨, 我是 劉宗勲!",

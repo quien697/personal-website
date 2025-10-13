@@ -12,6 +12,8 @@ export interface Theme {
 }
 
 export interface Constant {
-    knowMe: string;
-    mySkills: string;
-  }
+  knowMe: string;
+  mySkills: string;
+  technologies: string;
+  website: string;
+}

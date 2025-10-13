@@ -7,7 +7,7 @@ export const useResumeData = () => {
   const aboutMe = t('aboutMe', { returnObjects: true }) as string[];
   const experiences = t('experiences', { returnObjects: true }) as Experience[];
   const skills = t('skills', { returnObjects: true }) as string[];
-  const portfolios = t('projects', { returnObjects: true }) as Portfolio[];
+  const portfolios = t('portfolios', { returnObjects: true }) as Portfolio[];
 
   return {
     personalInfo,

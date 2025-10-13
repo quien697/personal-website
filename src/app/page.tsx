@@ -2,10 +2,10 @@
 import Hero from '@/components/Sections/Hero';
 import About from '@/components/Sections/About';
 import Experience from '@/components/Sections/Experience';
+import Portfolio from '@/components/Sections/Portfolio';
 // Components
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import PortfolioSection from '@/components/Page/Portfolio/portfolio';
 import ContactSection from '@/components/Page/Contact';
 import BackToTopButton from '@/components/Common/BackToTopButton';
 
@@ -17,7 +17,7 @@ export default function Home() {
         <Hero />
         <About />
         <Experience />
-        <PortfolioSection />
+        <Portfolio />
         <ContactSection />
         <BackToTopButton />
       </main>
