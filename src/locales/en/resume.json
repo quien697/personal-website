@@ -24,8 +24,8 @@
     ],
     "brief": [
       "Hi, I'm Tsung-Hsun Liu!",
-      "You can also call me Quien.",
-      "I am Full-Stack Developer & iOS Developer in Taiwan."
+      "You can also call me <strong>Quien</strong>.",
+      "I am <strong class='text-primary'>Full-Stack Developer</strong> & <strong class='text-primary'>iOS Developer</strong> in Taiwan."
     ]
   },
   "aboutMe": [

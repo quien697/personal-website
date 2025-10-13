@@ -24,8 +24,8 @@
     ],
     "brief": [
       "嗨, 我是 劉宗勲!",
-      "也可以稱呼我 Quien.",
-      "我是 全端開發工程師 & iOS 開發工程師 目前住在台灣."
+      "也可以稱呼我 <strong>Quien</strong>.",
+      "我是 <strong class='text-primary'>全端開發工程師</strong> & <strong class='text-primary'>iOS 開發工程師</strong> 目前住在台灣."
     ]
   },
   "aboutMe": [
