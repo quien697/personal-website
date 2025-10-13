@@ -18,7 +18,7 @@ export default function Hero() {
             width={250}
             height={250}
             priority alt={personalInfo.name}
-            className="rounded-full shadow-2xl shadow-gary-primary lg:hidden"
+            className="rounded-full shadow-2xl shadow-neutral-800 lg:hidden"
           />
         </div>
         <h1 className="font-bold text-3xl xl:text-6xl lg:text-5xl md:text-4xl">{personalInfo.brief[0]}</h1>

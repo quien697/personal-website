@@ -10,7 +10,7 @@ interface SectionProps {
 }
 
 const Section: React.FC<SectionProps> = ({ id, isPrimary, title, className, children }) => {
-  const gbColor = isPrimary ? 'bg-white dark:bg-gary-primary' : 'bg-gray-light dark:bg-gray-secondary';
+  const gbColor = isPrimary ? 'bg-white dark:bg-neutral-800' : 'bg-neutral-100 dark:bg-neutral-700';
 
   return (
     <section id={id} className={`flex flex-col items-center ${gbColor}`}>
