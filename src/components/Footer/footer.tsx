@@ -1,10 +1,12 @@
 'use client';
 import React from 'react';
-import IconLink from '../Common/IconLink/iconLink';
-import { useLocalizedData } from '@/data';
+import IconLink from '../Common/IconLink';
+import { useResumeData } from '@/hooks/useResumeData';
+import { useUIData } from '@/hooks/useUIData';
 
 const Header = () => {
-  const { constants, socials, contact } = useLocalizedData()
+  const { contact, socials, copyright } = useResumeData();
+  const { constants } = useUIData();;
 
   return (
     <footer className="bg-white dark:bg-neutral-800">
@@ -17,17 +19,17 @@ const Header = () => {
             </p>
           )
         })}
-        <h3 className="text-xl text-bold mb-4 mt-2 lg:text-3xl md:text-2xl">{constants.FOLLOW_ME}</h3>
+        <h3 className="text-xl text-bold mb-4 mt-2 lg:text-3xl md:text-2xl">{constants.followMe}</h3>
         <ul className="flex space-x-4">
           {socials.map((item, idx) => {
             return (
               <li key={idx}>
-                <IconLink href={item.href}>{item.icon}</IconLink>
+                <IconLink href={item.url}>{item.icon}</IconLink>
               </li>
             )
           })}
         </ul>
-        <h2 className="pt-8">Copyright © 2025 <span className="font-bold text-blue-600">Tsung-Hsun Liu</span> All Rights Reserved.</h2>
+        <h2 className="pt-8" dangerouslySetInnerHTML={{ __html: copyright }} />
       </div>
     </footer>
   )

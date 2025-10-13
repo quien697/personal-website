@@ -1,12 +1,15 @@
+import { ReactElement } from 'react';
+
 export interface Location {
   city: string
   province?: string
   country: string
 }
 
-export interface SocialLink {
-  name: string
-  url: string
+export interface Social {
+  name: string;
+  href: string;
+  icon?: ReactElement;
 }
 
 export interface PersonalInfo {
@@ -14,7 +17,7 @@ export interface PersonalInfo {
   email: string
   phone: string
   location: Location
-  social: SocialLink[]
+  social: Social[]
   brief: string[]
 }
 
@@ -36,3 +39,9 @@ export interface Portfolio {
   github?: string;
   link?: string;
 }
+
+export interface Contact {
+  name: string;
+  icon: ReactElement;
+}
+
