@@ -7,7 +7,7 @@ interface IconLinkProps {
 }
 
 const IconLink: React.FC<IconLinkProps> = ({ href, children }) => {
-  if (typeof(href) == "undefined") { return }
+  if (typeof(href) == 'undefined') { return }
 
   return (
     <Link href={href} target="_blank">

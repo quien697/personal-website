@@ -1,41 +1,67 @@
 # Personal Website
 
+![Node.js](https://img.shields.io/badge/Node-v24.10.0-brightgreen.svg) ![React](https://img.shields.io/badge/React-v19.2.0-blue.svg) ![Next.js](https://img.shields.io/badge/Next-15.5.4-black) ![TypeScript](https://img.shields.io/badge/typescript-5.9.3-blue) ![Tailwind CSS](https://img.shields.io/badge/tailwind-v4.1.14-teal) ![License](https://img.shields.io/badge/license-MIT-green)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 And sets up the project likes below:
 
-```
+```bash
 Would you like to use TypeScript?  Yes
-Would you like to use ESLint?  Yes
+Which linter would you like to use? ESLint
 Would you like to use Tailwind CSS?  Yes
-Would you like to use `src/` directory?  Yes
+Would you like your code inside a `src/` directory?  Yes
 Would you like to use App Router? (recommended)  Yes
-Would you like to customize the default import alias?  Yes
+Would you like to use Turbopack? (recommended)  Yes
+Would you like to customize the import alias (`@/\*` by default)?  Yes
+What import alias would you like configured? @/*
 ```
 
-## Description
 
-1. This is a simple personal website project without any backend.
-2. It is a single-page application.
-3. Changing themes features, like system mode, light mode and dark mode in this case.
-4. Changing languages features, like English and Traditional Chinese(繁體中文) in this case.
 
-## Technologies used ([package.json](https://github.com/quien697/personal-website/blob/main/package.json))
+## 📝 Overview
 
-1. [Next.js](https://nextjs.org/)
-2. [TypeScript](https://www.typescriptlang.org)
-3. [ESLint](https://eslint.org)
-4. [Tailwind CSS](https://tailwindcss.com)
+1. A lightweight personal website built as a single-page application (SPA) with no backend.
+2. Supports theme switching, including system default, light mode, and dark mode.
+3. Supports language switching, currently available in English and Traditional Chinese (繁體中文).
+4. Fully responsive.
 
-## Other Dependencies ([package.json](https://github.com/quien697/personal-website/blob/main/package.json))
 
-1. react-icons : [Github](https://github.com/react-icons/react-icons), [Website](https://react-icons.github.io/react-icons/)
-2. react-scroll : [Github](https://github.com/fisshy/react-scroll)
-3. @types/react-scroll : [Website](https://www.npmjs.com/package/@types/react-scroll)
-4. next-themes : [Github](https://github.com/pacocoursey/next-themes)
-5. i18next : [Github](https://github.com/i18next/i18next), [Website](https://www.i18next.com)
-6. react-i18next : [Github](https://github.com/i18next/react-i18next), [Website](https://react.i18next.com)
-7. emailjs/browser : [Github](https://github.com/emailjs-com/emailjs-sdk), [Website](https://www.emailjs.com/docs/sdk/installation/)
+
+## 🛠️ Technologies & Frameworks
+
+1. [Node](https://nodejs.org/en) v24.10.0
+1. [Next.js](https://nextjs.org/) v15.5.4
+1. [React](https://react.dev/) v19.2.0
+1. [Next Themes](https://ui.shadcn.com/docs/dark-mode/next) v0.4.6
+1. [React Icons](https://www.react-icons.com/) v5.5.0
+1. [React Scroll](https://github.com/fisshy/react-scroll) v1.9.3
+1. [react-i18next](https://react.i18next.com/) v16.0.1
+1. [EmailJS Browser](https://www.emailjs.com/) v3.12.1
+
+
+
+## 🔧 Development Tools
+
+1. [TypeScript](https://www.typescriptlang.org) v5.9.3
+2. [ESLint](https://eslint.org) v9.37.0
+3. [Tailwind CSS](https://tailwindcss.com) v4.1.14
+
+
+
+## 📂 Folder Structure
+
+```text
+src/
+├── app/
+├── components/
+├── hooks/
+├── i18n/
+├── locales/
+├── types/
+```
+
+
 
 ## Getting Started
 
@@ -56,3 +82,17 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+
+## 👨‍💻 Author
+
+**Tsung-Hsun Liu**  
+📧 [quien697@gmail.com](mailto:quien697@gmail.com)  
+🌐 [tsunghsun.me](https://www.tsunghsun.me)
+
+
+
+## 📄 License
+
+MIT License © 2025 Tsung-Hsun Liu

@@ -1,0 +1,56 @@
+{
+  "constants" : {
+    "knowMe": "Get To Know Me!",
+    "mySkills": "My Skills",
+    "technologies": "Technologies",
+    "website": "Website",
+    "getInTouch": "Get In Touch",
+    "name": "name",
+    "email": "email",
+    "message": "message",
+    "sendMessage": "Send Message",
+    "followMe": "Follow Me",
+    "link": "Link"
+  },
+  "navItems": {
+    "home": {
+      "name": "Home",
+      "value": "home",
+      "title": "Home"
+    },
+    "about": {
+      "name": "About",
+      "value": "about",
+      "title": "About Me"
+    },
+    "experience": {
+      "name": "Experience",
+      "value": "experience",
+      "title": "Experience"
+    },
+    "portfolio": {
+      "name": "Portfolio",
+      "value": "portfolio",
+      "title": "Portfolio"
+    },
+    "contact": {
+      "name": "Contact",
+      "value": "contact",
+      "title": "Contact"
+    }
+  },
+  "themes": [
+    {
+      "name": "System",
+      "value": "system"
+    },
+    {
+      "name": "Light",
+      "value": "light"
+    },
+    {
+      "name": "Dark",
+      "value": "dark"
+    }
+  ]
+}
