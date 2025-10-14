@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import Section from '@/components//Common/Section';
+import Section from '@/components/Common/Section';
 import { Link } from 'react-scroll';
 import { RiArrowDownSLine } from 'react-icons/ri'
 import { useResumeData } from '@/hooks/useResumeData';

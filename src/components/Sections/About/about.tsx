@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Section from '@/components//Common/Section';
+import Section from '@/components/Common/Section';
 import SkillButton from '@/components/Common/SkillButton/skillButton';
 import { useResumeData } from '@/hooks/useResumeData';
 import { useUIData } from '@/hooks/useUIData';

@@ -26,10 +26,30 @@ export default function ContactSection() {
         <h3 className="text-xl text-bold mb-4 lg:text-3xl md:text-2xl">{constants.getInTouch}</h3>
         <form ref={form} onSubmit={sendEmail}>
           <div className="flex flex-wrap justify-center text-white gap-4">
-            <input name="name" required placeholder={constants.name} className="grow bg-neutral-800 outline-blue-600 rounded-md px-3 py-2"></input>
-            <input name="email" required placeholder={constants.email} className="grow bg-neutral-800 outline-blue-600 rounded-md px-3 py-2"></input>
-            <textarea name="message" required rows={5} placeholder={constants.message} className="w-full bg-neutral-800 outline-blue-600 rounded-md px-3 py-2"></textarea>
-            <button type="submit" className="bg-blue-600 rounded-full py-3 px-7 shadow-lg hover:bg-blue-800">{constants.sendMessage}</button>
+            <input
+              name="name"
+              required
+              placeholder={constants.name}
+              className="grow bg-neutral-800 outline-primary rounded-md px-3 py-2">
+            </input>
+            <input
+              name="email"
+              required
+              placeholder={constants.email}
+              className="grow bg-neutral-800 outline-primary rounded-md px-3 py-2">
+            </input>
+            <textarea
+              name="message"
+              required rows={5}
+              placeholder={constants.message}
+              className="w-full bg-neutral-800 outline-primary rounded-md px-3 py-2">
+            </textarea>
+            <button
+              type="submit"
+              className="bg-primary rounded-full py-3 px-7 shadow-lg hover:bg-blue-800"
+            >
+              {constants.sendMessage}
+            </button>
           </div>
         </form>
       </div>

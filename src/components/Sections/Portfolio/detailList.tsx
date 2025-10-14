@@ -1,7 +1,7 @@
 import React from 'react';
-import IconLink from '@/components/Common/IconLink/';
+import IconLink from '@/components/Common/IconLink';
 import { HiExternalLink } from 'react-icons/hi';
-import { useLocalizedData } from '@/data';
+import { useUIData } from '@/hooks/useUIData';
 
 interface DetailListProps {
   title: string;
@@ -11,8 +11,9 @@ interface DetailListProps {
 }
 
 const DetailList: React.FC<DetailListProps>  = ({ title, isLink, href, children }) => {
-  const { constants } = useLocalizedData()
-  const style: string = "flex flex-wrap space-x-2 py-2"
+  const { constants } = useUIData();
+  const style: string = "flex flex-wrap space-x-2 py-2";
+
   if (typeof(href) == "undefined" && isLink) { return }
 
   if (isLink) {
@@ -20,7 +21,9 @@ const DetailList: React.FC<DetailListProps>  = ({ title, isLink, href, children 
       <li className={style}>
         <span>{`${title}: `}</span>
         <IconLink href={href || "#"}>
-          <span className="flex font-bold text-blue-600 underline underline-offset-2 hover:text-blue-800">{constants.LINK}<HiExternalLink size={22} /></span>
+          <span className="flex font-bold text-primary underline underline-offset-2 hover:text-blue-800">
+            {constants.link}<HiExternalLink size={22} />
+          </span>
         </IconLink>
       </li>
     )

@@ -11,6 +11,11 @@ export interface Theme {
   value: string
 }
 
+export interface Language {
+  name: string
+  value: string
+}
+
 export interface Constant {
   knowMe: string;
   mySkills: string;
@@ -22,4 +27,5 @@ export interface Constant {
   message: string;
   sendMessage: string;
   followMe: string;
+  link: string;
 }
