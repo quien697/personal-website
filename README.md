@@ -1,6 +1,6 @@
 # Personal Website
 
-![Node.js](https://img.shields.io/badge/Node-v24.10.0-brightgreen.svg)![React](https://img.shields.io/badge/React-v19.2.0-blue.svg)![Next.js](https://img.shields.io/badge/Next-15.5.4-black)![TypeScript](https://img.shields.io/badge/typescript-5.9.3-blue)![Tailwind CSS](https://img.shields.io/badge/tailwind-v4.1.14-teal)![License](https://img.shields.io/badge/license-MIT-green)
+![Node.js](https://img.shields.io/badge/Node-v24.10.0-brightgreen.svg) ![React](https://img.shields.io/badge/React-v19.2.0-blue.svg) ![Next.js](https://img.shields.io/badge/Next-15.5.4-black) ![TypeScript](https://img.shields.io/badge/typescript-5.9.3-blue) ![Tailwind CSS](https://img.shields.io/badge/tailwind-v4.1.14-teal) ![License](https://img.shields.io/badge/license-MIT-green)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
