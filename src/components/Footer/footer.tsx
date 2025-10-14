@@ -1,12 +1,12 @@
 'use client';
 import React from 'react';
-import IconLink from '../Common/IconLink';
+import SocialsList from '@/components/Common/SocialsList';
 import { useResumeData } from '@/hooks/useResumeData';
 import { useUIData } from '@/hooks/useUIData';
 
 const Header = () => {
   const { contact, socials, copyright } = useResumeData();
-  const { constants } = useUIData();;
+  const { constants } = useUIData();
 
   return (
     <footer className="bg-white dark:bg-neutral-800">
@@ -20,15 +20,7 @@ const Header = () => {
           )
         })}
         <h3 className="text-xl text-bold mb-4 mt-2 lg:text-3xl md:text-2xl">{constants.followMe}</h3>
-        <ul className="flex space-x-4">
-          {socials.map((item, idx) => {
-            return (
-              <li key={idx}>
-                <IconLink href={item.url}>{item.icon}</IconLink>
-              </li>
-            )
-          })}
-        </ul>
+        <SocialsList data={socials} ulClassName="flex space-x-4" />
         <h2 className="pt-8" dangerouslySetInnerHTML={{ __html: copyright }} />
       </div>
     </footer>

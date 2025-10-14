@@ -17,7 +17,7 @@ export interface PersonalInfo {
   email: string
   phone: string
   location: Location
-  social: Social[]
+  socials: Social[]
   brief: string[]
 }
 
