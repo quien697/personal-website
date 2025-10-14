@@ -1,0 +1,56 @@
+{
+  "constants" : {
+    "knowMe": "深入認識我!",
+    "mySkills": "所掌握的技能",
+    "technologies": "相關技術",
+    "website": "網站",
+    "getInTouch": "與我取得聯繫",
+    "name": "姓名",
+    "email": "電子信箱",
+    "message": "訊息",
+    "sendMessage": "發送訊息",
+    "followMe": "請關注我",
+    "link": "連結"
+  },
+  "navItems": {
+    "home": {
+      "name": "首頁",
+      "value": "home",
+      "title": "Home"
+    },
+    "about": {
+      "name": "關於我",
+      "value": "about",
+      "title": "About Me"
+    },
+    "experience": {
+      "name": "經驗",
+      "value": "experience",
+      "title": "Experience"
+    },
+    "portfolio": {
+      "name": "作品",
+      "value": "portfolio",
+      "title": "Portfolio"
+    },
+    "contact": {
+      "name": "聯絡我",
+      "value": "contact",
+      "title": "Contact"
+    }
+  },
+  "themes": [
+    {
+      "name": "系統",
+      "value": "system"
+    },
+    {
+      "name": "白天",
+      "value": "light"
+    },
+    {
+      "name": "黑夜",
+      "value": "dark"
+    }
+  ]
+}
