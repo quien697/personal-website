@@ -5,6 +5,9 @@ import { HiEnvelope, HiMapPin } from 'react-icons/hi2';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { AiFillPhone } from 'react-icons/ai';
 
+/*
+ *  Custom hook for accessing and managing resume data.
+*/
 export const useResumeData = () => {
   const { t } = useTranslation('resume');
   const personalInfo = t('personalInfo', { returnObjects: true }) as PersonalInfo;
@@ -37,7 +40,7 @@ export const useResumeData = () => {
     icon: socialIconMap[item.name] || null,
   }));
 
-  const copyright = `Copyright © 2025 <strong class='text-primary'>Tsung-Hsun Liu</strong> All Rights Reserved.`
+  const copyright = 'Copyright © 2025 <strong class="text-primary">Tsung-Hsun Liu</strong> All Rights Reserved.';
 
   return {
     personalInfo,

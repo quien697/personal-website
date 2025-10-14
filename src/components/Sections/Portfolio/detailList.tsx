@@ -12,9 +12,9 @@ interface DetailListProps {
 
 const DetailList: React.FC<DetailListProps>  = ({ title, isLink, href, children }) => {
   const { constants } = useUIData();
-  const style: string = "flex flex-wrap space-x-2 py-2";
+  const style: string = 'flex flex-wrap space-x-2 py-2';
 
-  if (typeof(href) == "undefined" && isLink) { return }
+  if (typeof(href) == 'undefined' && isLink) { return }
 
   if (isLink) {
     return (

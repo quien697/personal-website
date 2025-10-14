@@ -12,11 +12,32 @@ const BackToTopButton: React.FC = () => {
       duration: 500,
     });
   };
+  const styles: string = `
+    fixed
+    bottom-4
+    right-4
+    flex
+    justify-center
+    items-center
+    bg-neutral-300
+    dark:bg-neutral-950
+    w-10
+    h-10
+    rounded-full
+    shadow
+    shadow-neutral-400
+    dark:shadow-neutral-800
+    hover:bg-primary
+    hover:text-white
+    lg:w-12
+    lg:h-12
+    ${showBackToTopBtn ? "" : "hidden"}
+  `;
 
   return (
     <button
       onClick={backToTop}
-      className={`fixed bottom-4 right-4 flex justify-center items-center bg-neutral-300 dark:bg-neutral-950 w-10 h-10 rounded-full shadow shadow-neutral-400 dark:shadow-neutral-800 hover:bg-primary hover:text-white lg:w-12 lg:h-12 ${showBackToTopBtn ? "" : "hidden"}`}
+      className={styles}
     >
       <FaChevronUp size={22} />
     </button>

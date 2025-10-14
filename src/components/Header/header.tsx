@@ -17,15 +17,41 @@ const Header = () => {
   const { theme, systemTheme, setTheme } = useTheme();
   const curTheme = theme === themes[0].value ? systemTheme : theme
   const menuIconSize = 30;
+  const navStyles: string = `
+    flex
+    top-0
+    left-0
+    w-full
+    h-auto
+    bg-neutral-950
+    border-r-1
+    shadow
+    z-10
+    py-2
+    px-0
+    overflow-visible
+    lg:fixed
+    lg:jsutify-start
+    lg:w-64
+    lg:h-full
+    lg:overflow-hidden
+  `;
 
   return (
     <header className="sticky top-0 z-40">
-      <nav className="flex top-0 left-0 w-full h-auto bg-neutral-950 border-r-1 shadow z-10 py-2 px-0 overflow-visible lg:fixed lg:jsutify-start lg:w-64 lg:h-full lg:overflow-hidden">
+      <nav className={navStyles}>
         <div className="flex items-center justify-between relative flex-row h-full w-full text-white px-3 lg:flex-col lg:pt-3 lg:pb-2">
           {/* Headshot & Name */}
           <div className="lg:mt-4">
             <span className="hidden bg-neutral-700 rounded-full p-2 lg:inline-block lg:mb-1">
-              <Image src="/assets/headshot.JPG" width={150} height={150} priority alt={personalInfo.name} className="block w-full h-auto rounded-full" />
+              <Image
+                src="/assets/headshot.JPG"
+                width={150}
+                height={150}
+                priority
+                alt={personalInfo.name}
+                className="block w-full h-auto rounded-full"
+              />
             </span>
             <h1 className="text-center text-xl mb-0 lg:block lg:text-2xl">{personalInfo.name}</h1>
           </div>
