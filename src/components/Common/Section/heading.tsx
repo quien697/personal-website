@@ -19,10 +19,10 @@ const Heading: React.FC<HeadingProps> = ({ title }) => {
     absolute
     w-full
     self-center
-    leading-normal
-    text-3xl
+    leading-none
     font-semibold
     mb-0
+    text-3xl
     xl:text-6xl
     lg:text-5xl
     md:text-4xl
@@ -33,7 +33,7 @@ const Heading: React.FC<HeadingProps> = ({ title }) => {
     <h2 className={titleStyles}>{title}</h2>
     <p className={titleOverlayStyles}>
         {title}
-        <span className="block w-20 border-b-4 border-3 border-primary mx-auto" />
+        <span className="block w-20 border-b-3 lg:border-b-4 border-primary mx-auto" />
     </p>
     </div>
   )
