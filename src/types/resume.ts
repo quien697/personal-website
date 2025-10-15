@@ -1,23 +1,10 @@
-import { ReactElement } from 'react';
-
-export interface Location {
-  city: string
-  province?: string
-  country: string
-}
-
-export interface Social {
-  name: string;
-  href: string;
-  icon?: ReactElement;
-}
+import { IconType } from "react-icons";
 
 export interface PersonalInfo {
   name: string
   email: string
   phone: string
   location: Location
-  socials: Social[]
   brief: string[]
 }
 
@@ -41,7 +28,18 @@ export interface Portfolio {
 }
 
 export interface Contact {
-  name: string;
-  icon: ReactElement;
+  label: string;
+  Icon: IconType;
 }
 
+export interface Location {
+  city: string
+  province?: string
+  country: string
+}
+
+export interface Social {
+  name: string;
+  url: string;
+  Icon: IconType;
+}

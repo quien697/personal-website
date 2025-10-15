@@ -3,6 +3,7 @@ import Select from './select';
 import { MdLanguage } from 'react-icons/md'
 import { RiSunLine, RiMoonFill } from 'react-icons/ri';
 import { useUIData } from '@/hooks/useUIData';
+import { ICON_SIZE_SM, LANGUAGES } from '@/constants';
 
 interface SettingListProps {
   theme: string;
@@ -16,16 +17,15 @@ interface SettingListProps {
 const SettingList: React.FC<SettingListProps> = ({
   theme, curTheme, language, className, onThemeChange, onLanguageChange
 }) => {
-  const { themes, languages } = useUIData();
-  const iconSize = 24;
+  const { themes } = useUIData();
 
   return (
     <ul className={` ${className}`}>
-      <Select value={theme} options={themes} onChange={onThemeChange}>
-        {curTheme === themes[1].value ? <RiSunLine size={iconSize} /> : <RiMoonFill size={iconSize} />}
+      <Select name="theme" value={theme} options={themes} onChange={onThemeChange}>
+        {curTheme === themes[1].value ? <RiSunLine size={ICON_SIZE_SM} /> : <RiMoonFill size={ICON_SIZE_SM} />}
       </Select>
-      <Select value={language} options={languages} onChange={onLanguageChange}>
-        <MdLanguage size={iconSize} />
+      <Select name="language" value={language} options={LANGUAGES} onChange={onLanguageChange}>
+        <MdLanguage size={ICON_SIZE_SM} />
       </Select>
     </ul>
   )

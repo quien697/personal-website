@@ -3,6 +3,7 @@ import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import useBackToTop from '@/hooks/useBackToTop';
 import { FaChevronUp } from 'react-icons/fa';
+import { ICON_SIZE_SM } from '@/constants';
 
 const BackToTopButton: React.FC = () => {
   const showBackToTopBtn = useBackToTop();
@@ -39,7 +40,7 @@ const BackToTopButton: React.FC = () => {
       onClick={backToTop}
       className={styles}
     >
-      <FaChevronUp size={22} />
+      <FaChevronUp size={ICON_SIZE_SM} />
     </button>
   )
 }

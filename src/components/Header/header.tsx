@@ -9,14 +9,14 @@ import SocialsList from '@/components/Common/SocialsList';
 import i18n from '@/i18n/i18n';
 import { useResumeData } from '@/hooks/useResumeData';
 import { useUIData } from '@/hooks/useUIData';
+import { ICON_SIZE_MENU, SOCIALS } from '@/constants';
 
 const Header = () => {
-  const { personalInfo, socials } = useResumeData();
+  const { personalInfo } = useResumeData();
   const { themes } = useUIData();
   const [ isNavbar, setNavbar ] = useState(false);
   const { theme, systemTheme, setTheme } = useTheme();
   const curTheme = theme === themes[0].value ? systemTheme : theme
-  const menuIconSize = 30;
   const navStyles: string = `
     flex
     top-0
@@ -59,7 +59,7 @@ const Header = () => {
           <NavList className="hidden text-xl text-center my-auto lg:flex" />
           {/* Social List */}
           <SocialsList
-            data={socials}
+            data={SOCIALS}
             ulClassName="grow justify-end flex list-none lg:flex lg:grow-0 lg:justify-center"
             liClassName="mx-2 my-2"
           />
@@ -74,7 +74,7 @@ const Header = () => {
           />
           {/* Toggle Button */}
           <button className="p-2 lg:hidden" onClick={() => setNavbar(!isNavbar)}>
-            {isNavbar ? <IoMdClose size={menuIconSize} color="white" /> : <IoMdMenu size={menuIconSize} color="white" />}
+            {isNavbar ? <IoMdClose size={ICON_SIZE_MENU} color="white" /> : <IoMdMenu size={ICON_SIZE_MENU} color="white" />}
           </button>
           {/* Nav List & Setting List (Mobile) */}
           <div className={`min-w-fit h-auto bg-neutral-950 ${isNavbar ? "absolute top-[130%] right-2 rounded-md mt-0 px-4 z-50 shadow" : "hidden"}`}>

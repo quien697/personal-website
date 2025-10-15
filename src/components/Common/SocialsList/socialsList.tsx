@@ -1,6 +1,7 @@
 import React from 'react';
 import IconLink from '@/components/Common/IconLink';
 import type { Social } from '@/types/resume';
+import { ICON_SIZE_SM } from '@/constants/';
 
 interface SocialsListProps {
   data: Social[];
@@ -11,10 +12,12 @@ interface SocialsListProps {
 const SocialsList: React.FC<SocialsListProps> = ({ data, ulClassName, liClassName }) => {
   return (
     <ul className={ulClassName}>
-      {data.map((item, idx) => {
+      {data.map(({ url, Icon }, idx) => {
         return (
           <li key={idx} className={liClassName}>
-            <IconLink href={item.name}>{item.icon}</IconLink>
+            <IconLink href={url}>
+              <Icon size={ICON_SIZE_SM} className="hover:text-primary" />
+            </IconLink>
           </li>
         )
       })}

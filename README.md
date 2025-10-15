@@ -58,6 +58,7 @@ src/
 ├── hooks/
 ├── i18n/
 ├── locales/
+├── constants/
 ├── types/
 ```
 
