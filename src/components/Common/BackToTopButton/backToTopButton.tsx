@@ -40,7 +40,7 @@ const BackToTopButton: React.FC = () => {
       onClick={backToTop}
       className={styles}
     >
-      <FaChevronUp size={20} />
+      <FaChevronUp size={ICON_SIZE_SM} />
     </button>
   )
 }
