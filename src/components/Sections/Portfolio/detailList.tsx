@@ -2,6 +2,7 @@ import React from 'react';
 import IconLink from '@/components/Common/IconLink';
 import { HiExternalLink } from 'react-icons/hi';
 import { useUIData } from '@/hooks/useUIData';
+import { ICON_SIZE_SM } from '@/constants';
 
 interface DetailListProps {
   title: string;
@@ -22,7 +23,7 @@ const DetailList: React.FC<DetailListProps>  = ({ title, isLink, href, children 
         <span>{`${title}: `}</span>
         <IconLink href={href || "#"}>
           <span className="flex font-bold text-primary underline underline-offset-2 hover:text-blue-800">
-            {constants.link}<HiExternalLink size={22} />
+            {constants.link}<HiExternalLink size={ICON_SIZE_SM} />
           </span>
         </IconLink>
       </li>

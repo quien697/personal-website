@@ -5,6 +5,7 @@ import Section from '@/components/Common/Section';
 import { Link } from 'react-scroll';
 import { RiArrowDownSLine } from 'react-icons/ri'
 import { useResumeData } from '@/hooks/useResumeData';
+import { ICON_SIZE_MD } from '@/constants';
 
 export default function Hero() {
   const { personalInfo } = useResumeData();
@@ -27,7 +28,7 @@ export default function Hero() {
       </div>
       <div className="flex justify-center hover:text-primary cursor-pointer">
         <Link to="about" spy smooth duration={500}>
-          <RiArrowDownSLine size={35} className="animate-bounce" />
+          <RiArrowDownSLine size={ICON_SIZE_MD} className="animate-bounce" />
         </Link>
       </div>
     </Section>

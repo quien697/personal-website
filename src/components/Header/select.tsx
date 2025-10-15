@@ -6,17 +6,19 @@ interface OptionProps {
 }
 
 interface SelectProps {
+  name: string;
   value: string;
   options: OptionProps[];
   onChange: (value: string) => void;
   children: ReactNode;
 }
 
-const Select: React.FC<SelectProps> = ({ value, options, onChange, children }) => {
+const Select: React.FC<SelectProps> = ({ name, value, options, onChange, children }) => {
   return (
     <li className="flex border-2 border-black-4 mx-2 my-4 p-2 rounded-md">
       {children}
       <select
+        name={name}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className="bg-neutral-950 text-center outline-0 outline-none appearance-none pl-1">
