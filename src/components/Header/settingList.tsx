@@ -3,8 +3,7 @@ import Select from './select';
 import { MdLanguage } from 'react-icons/md'
 import { RiSunLine, RiMoonFill } from 'react-icons/ri';
 import { useUIData } from '@/hooks/useUIData';
-import { LANGUAGES } from '@/constants';
-import { ICON_SIZE_SM } from '@/constants';
+import { ICON_SIZE_SM, LANGUAGES } from '@/constants';
 
 interface SettingListProps {
   theme: string;
