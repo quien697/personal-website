@@ -30,4 +30,4 @@ export const SOCIALS: Social[] = [
   }
 ]
 
-export const COPYRIGHT: string = 'Copyright © 2025 <strong class="text-primary">Tsung-Hsun Liu</strong> All Rights Reserved.';
+export const COPYRIGHT: string = 'Copyright © 2023-2025 <strong class="text-primary">Tsung-Hsun Liu</strong> All Rights Reserved.';
