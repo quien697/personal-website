@@ -1,6 +1,6 @@
 # Personal Website
 
-![Node.js](https://img.shields.io/badge/Node-v24.10.0-brightgreen.svg) ![React](https://img.shields.io/badge/React-v19.2.0-blue.svg) ![Next.js](https://img.shields.io/badge/Next-15.5.4-black) ![TypeScript](https://img.shields.io/badge/typescript-5.9.3-blue) ![Tailwind CSS](https://img.shields.io/badge/tailwind-v4.1.14-teal) ![License](https://img.shields.io/badge/license-MIT-green)
+![Node.js](https://img.shields.io/badge/Node-v24.12.0-brightgreen.svg) ![React](https://img.shields.io/badge/React-v19.2.1-blue.svg) ![Next.js](https://img.shields.io/badge/Next-16.0.8-black) ![TypeScript](https://img.shields.io/badge/typescript-5.9.3-blue) ![Tailwind CSS](https://img.shields.io/badge/tailwind-v4.1.14-teal) ![License](https://img.shields.io/badge/license-MIT-green)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -9,12 +9,11 @@ And sets up the project likes below:
 ```bash
 Would you like to use TypeScript?  Yes
 Which linter would you like to use? ESLint
+Would you like to use React Compiler? Yes
 Would you like to use Tailwind CSS?  Yes
 Would you like your code inside a `src/` directory?  Yes
 Would you like to use App Router? (recommended)  Yes
-Would you like to use Turbopack? (recommended)  Yes
-Would you like to customize the import alias (`@/\*` by default)?  Yes
-What import alias would you like configured? @/*
+Would you like to customize the import alias (`@/\*` by default)?  No
 ```
 
 
@@ -30,14 +29,14 @@ What import alias would you like configured? @/*
 
 ## 🛠️ Technologies & Frameworks
 
-1. [Node](https://nodejs.org/en) v24.10.0
-1. [Next.js](https://nextjs.org/) v15.5.4
-1. [React](https://react.dev/) v19.2.0
+1. [Node](https://nodejs.org/en) v24.12.0
+1. [Next.js](https://nextjs.org/) v16.0.8
+1. [React](https://react.dev/) v19.2.1
 1. [Next Themes](https://ui.shadcn.com/docs/dark-mode/next) v0.4.6
 1. [React Icons](https://www.react-icons.com/) v5.5.0
 1. [React Scroll](https://github.com/fisshy/react-scroll) v1.9.3
 1. [react-i18next](https://react.i18next.com/) v16.0.1
-1. [EmailJS Browser](https://www.emailjs.com/) v3.12.1
+1. [EmailJS Browser](https://www.emailjs.com/) v4.4.1
 
 
 

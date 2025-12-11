@@ -7,10 +7,12 @@ import emailjs from '@emailjs/browser';
 export default function ContactSection() {
   const { navItems, constants } = useUIData()
   const form = useRef<HTMLFormElement>(null);
-  const currentForm = form.current || "";
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const currentForm = form.current;
+    if (!currentForm) return;
 
     emailjs.sendForm("service_quien697", "template_quien697", currentForm, "z1oIewy7PtxLBDhk6")
       .then((result) => {
