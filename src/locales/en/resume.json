@@ -25,7 +25,7 @@
     "brief": [
       "Hi, I'm Tsung-Hsun Liu!",
       "You can also call me <strong>Quien</strong>.",
-      "I am <strong class='text-primary'>Full-Stack Developer</strong> & <strong class='text-primary'>iOS Developer</strong> in Taiwan."
+      "I am a <strong class='text-primary'>Software Developer</strong> in Taiwan."
     ]
   },
   "aboutMe": [
@@ -44,11 +44,11 @@
     "JavaScript",
     "React.js",
     "React Native",
-    "Typescript",
+    "TypeScript",
     "Node.js",
     "C#",
     "PHP",
-    "MYSQL",
+    "MySQL",
     "Git",
     "GitHub"
   ],
@@ -67,7 +67,7 @@
       "location": "Taipei, Taiwan",
       "date": "2018-2022",
       "isCurrentlyWorkHere": false,
-      "detail": "As a freelance in our team, maintained websites and optimized databases is my mainly task. Also sometime worked on mobile development such as Android or iOS."
+      "detail": "As a freelancer on our team, maintaining websites and optimizing databases was my main task. Also sometimes worked on mobile development such as Android or iOS."
     },
     {
       "position": "Full Stack Developer",
@@ -75,7 +75,7 @@
       "location": "Taoyuan, Taiwan",
       "date": "2013-2014",
       "isCurrentlyWorkHere": false,
-      "detail": "Daher is a commercial software development company, like enterprise erp systems, POS system, financial accounting system, etc.\n I mainly help the company to optimize website more user-friendly and evelope a better performance database that increased query speed."
+      "detail": "Daher is a commercial software development company, like enterprise ERP systems, POS system, financial accounting system, etc.\n I mainly help the company to optimize website more user-friendly and develop a better performance database that increased query speed."
     },
     {
       "position": "Intern Software Developer",
@@ -83,7 +83,7 @@
       "location": "Taipei, Taiwan",
       "date": "2011-2012",
       "isCurrentlyWorkHere": false,
-      "detail": "Sunlight is a software company. I mainly help company to develop Android mobile app with a team and maintain the existing website."
+      "detail": "Sunlight is a software company. I mainly help the company develop an Android mobile app with a team and maintain the existing website."
     }
   ],
    "portfolios": [
@@ -104,7 +104,7 @@
     {
       "name": "Chatwis.ai",
       "status": "2023",
-      "description": "It is a iOS mobile app that built on ChatGPT API technologies. We mainly use Swift for development and Storyboard for UI design. We implement using RxSwift and the MVVM structure, and we also utilize Core Data to store data locally.",
+      "description": "It is an iOS mobile app that built on ChatGPT API technologies. We mainly use Swift for development and Storyboard for UI design. We implement using RxSwift and the MVVM structure, and we also utilize Core Data to store data locally.",
       "image": "/assets/portfolio-chatwis.png",
       "technologies": [
         "iOS",
