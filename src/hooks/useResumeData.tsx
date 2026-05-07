@@ -1,3 +1,4 @@
+'use client';
 import type { PersonalInfo, Experience, Portfolio, SkillGroup } from '@/types/resume';
 import { useTranslation } from 'react-i18next';
 
