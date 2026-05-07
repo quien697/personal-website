@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import Image from 'next/image';
 import Section from '@/components/Common/Section';
 import SkillButton from '@/components/Common/SkillButton/skillButton';

@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import type { Contact } from '@/types/resume';
 import SocialsList from '@/components/Common/SocialsList';
 import { useResumeData } from '@/hooks/useResumeData';

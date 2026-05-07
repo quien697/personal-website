@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import Section from '@/components/Common/Section';
 import { useResumeData } from '@/hooks/useResumeData';
 import { useUIData } from '@/hooks/useUIData';
