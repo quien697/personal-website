@@ -100,6 +100,20 @@
       ],
       "github": "https://github.com/quien697/personal-website",
       "link": "https://tsunghsun.me/"
+    },
+    {
+      "name": "Medal Wall",
+      "status": "2025 - Present",
+      "description": "A personal iOS app for archiving every race completed. Built with SwiftUI and SwiftData following MVVM architecture.\nv1 (completed): local data persistence with SwiftData.\nv2 (in progress): Firebase integration for user authentication and Firestore cloud sync across devices.",
+      "image": "/assets/portfolio-medal-wall.png",
+      "technologies": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "SwiftData",
+        "Firebase"
+      ],
+      "github": "https://github.com/quien697/medal-wall"
     }
   ]
 }

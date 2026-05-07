@@ -99,6 +99,20 @@
       ],
       "github": "https://github.com/quien697/personal-website",
       "link": "https://tsunghsun.me/"
+    },
+    {
+      "name": "Medal Wall",
+      "status": "2026",
+      "description": "一款用來記錄個人每場比賽成果的 iOS App。\nv1 (已完成): 使用 SwiftUI 與 SwiftData 實作本地資料存儲，並獨立設計 MVVM 架構以確保 View 與 State 的分離。\nv2 (進行中): 整合 Firebase Authentication 實作登入功能，並將本地儲存遷移至 Firestore 以支援多裝置資料同步。",
+      "image": "/assets/portfolio-medal-wall.png",
+      "technologies": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "SwiftData",
+        "Firebase"
+      ],
+      "github": "https://github.com/quien697/medal-wall"
     }
   ]
 }
