@@ -1,4 +1,4 @@
-import type { PersonalInfo, Experience, Portfolio } from '@/types/resume';
+import type { PersonalInfo, Experience, Portfolio, SkillGroup } from '@/types/resume';
 import { useTranslation } from 'react-i18next';
 
 /*
@@ -9,7 +9,7 @@ export const useResumeData = () => {
   const personalInfo = t('personalInfo', { returnObjects: true }) as PersonalInfo;
   const aboutMe = t('aboutMe', { returnObjects: true }) as string[];
   const experiences = t('experiences', { returnObjects: true }) as Experience[];
-  const skills = t('skills', { returnObjects: true }) as string[];
+  const skills = t('skills', { returnObjects: true }) as SkillGroup[];
   const portfolios = t('portfolios', { returnObjects: true }) as Portfolio[];
 
   return {

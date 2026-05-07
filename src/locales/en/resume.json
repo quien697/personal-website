@@ -35,22 +35,18 @@
     "Now that I've returned to Taiwan, I'm shifting my focus toward iOS development, building personal projects with Swift and SwiftUI, and looking forward to contributing to real-world mobile applications."
   ],
   "skills": [
-    "iOS",
-    "Swift",
-    "SwiftUI",
-    "Android",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React.js",
-    "React Native",
-    "TypeScript",
-    "Node.js",
-    "C#",
-    "PHP",
-    "MySQL",
-    "Git",
-    "GitHub"
+    {
+      "category": "Frontend",
+      "items": ["iOS", "Swift", "SwiftUI", "Android", "HTML", "CSS", "JavaScript", "TypeScript", "React.js", "React Native"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "C#", "PHP", "MySQL"]
+    },
+    {
+      "category": "DevOps / Tools",
+      "items": ["Git", "GitHub", "Firebase", "Claude CLI"]
+    }
   ],
     "experiences": [
     {

@@ -35,22 +35,18 @@
     "現在我已回到台灣, 將職涯重心轉向我一直熱愛的 iOS 開發，積極以 Swift 與 SwiftUI 製作個人專案, 期望能參與實際的行動應用程式開發, 貢獻自己的技術與經驗."
   ],
   "skills": [
-    "iOS",
-    "Swift",
-    "SwiftUI",
-    "Android",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React.js",
-    "React Native",
-    "TypeScript",
-    "Node.js",
-    "C#",
-    "PHP",
-    "MySQL",
-    "Git",
-    "GitHub"
+    {
+      "category": "前端",
+      "items": ["iOS", "Swift", "SwiftUI", "Android", "HTML", "CSS", "JavaScript", "TypeScript", "React.js", "React Native"]
+    },
+    {
+      "category": "後端",
+      "items": ["Node.js", "C#", "PHP", "MySQL"]
+    },
+    {
+      "category": "DevOps / 工具",
+      "items": ["Git", "GitHub", "Firebase", "Claude CLI"]
+    }
   ],
   "experiences": [
     {
