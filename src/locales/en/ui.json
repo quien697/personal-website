@@ -18,15 +18,20 @@
       "value": "about",
       "title": "About Me"
     },
-    "experience": {
-      "name": "Experience",
-      "value": "experience",
-      "title": "Experience"
+    "skills": {
+      "name": "Skills",
+      "value": "skills",
+      "title": "My Skills"
     },
     "portfolio": {
       "name": "Portfolio",
       "value": "portfolio",
       "title": "Portfolio"
+    },
+    "experience": {
+      "name": "Experience",
+      "value": "experience",
+      "title": "Experience"
     }
   },
   "themes": [
