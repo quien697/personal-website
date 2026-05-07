@@ -4,11 +4,6 @@
     "mySkills": "My Skills",
     "technologies": "Technologies",
     "website": "Website",
-    "getInTouch": "Get In Touch",
-    "name": "name",
-    "email": "email",
-    "message": "message",
-    "sendMessage": "Send Message",
     "followMe": "Follow Me",
     "link": "Link"
   },
@@ -32,11 +27,6 @@
       "name": "Portfolio",
       "value": "portfolio",
       "title": "Portfolio"
-    },
-    "contact": {
-      "name": "Contact",
-      "value": "contact",
-      "title": "Contact"
     }
   },
   "themes": [

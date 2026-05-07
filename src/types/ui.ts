@@ -21,11 +21,6 @@ export interface Constant {
   mySkills: string;
   technologies: string;
   website: string;
-  getInTouch: string;
-  name: string;
-  email: string;
-  message: string;
-  sendMessage: string;
   followMe: string;
   link: string;
 }
