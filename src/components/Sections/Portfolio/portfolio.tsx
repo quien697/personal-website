@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import Image from 'next/image';
 import Section from '@/components/Common/Section';
 import SkillButton from '@/components/Common/SkillButton/skillButton';
@@ -26,7 +25,7 @@ export default function PortfolioSection() {
                     <span className="text-4xl font-bold">{item.name}</span>
                     <span className="ml-4 text-neutral-400 text-sm">{item.status}</span>
                   </h1>
-                  <p className="text-xl leading-7">{item.description}</p>
+                  <p className="text-xl leading-7 whitespace-pre-line">{item.description}</p>
                   <ul>
                     <DetailList title={constants.technologies} isLink={false}>
                       {item.technologies.map((item, idx) => {

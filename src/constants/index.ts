@@ -7,7 +7,7 @@ export const PHONE: string = '+886 0988-215-184';
 
 export const LANGUAGES: Language[] = [
   { name: 'English', value: 'en', },
-  { name: '繁體中文', value: 'zh_tw', },
+  { name: '繁體中文', value: 'zh-TW', },
 ]
 
 export const ICON_SIZE_MD: number = 35;
@@ -30,4 +30,4 @@ export const SOCIALS: Social[] = [
   }
 ]
 
-export const COPYRIGHT: string = 'Copyright © 2023-2025 <strong class="text-primary">Tsung-Hsun Liu</strong> All Rights Reserved.';
+export const COPYRIGHT: string = 'Copyright © 2023-2026 <strong class="text-primary">Tsung-Hsun Liu</strong> All Rights Reserved.';

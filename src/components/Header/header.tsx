@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import { useTheme } from 'next-themes';
 import { IoMdMenu, IoMdClose } from 'react-icons/io';
@@ -15,8 +15,15 @@ const Header = () => {
   const { personalInfo } = useResumeData();
   const { themes } = useUIData();
   const [ isNavbar, setNavbar ] = useState(false);
+  const [ language, setLanguage ] = useState(i18n.language);
   const { theme, systemTheme, setTheme } = useTheme();
   const curTheme = theme === themes[0].value ? systemTheme : theme
+
+  const handleLanguageChange = (lang: string) => {
+    i18n.changeLanguage(lang);
+    setLanguage(lang);
+  };
+
   const navStyles: string = `
     flex
     top-0
@@ -67,10 +74,10 @@ const Header = () => {
           <SettingList
             theme={theme || themes[0].value}
             curTheme={curTheme || themes[0].value}
-            language={i18n.language}
+            language={language}
             className="hidden list-none border-t-2 bg-neutral-950 lg:flex"
             onThemeChange={(selectedTheme) => setTheme(selectedTheme)}
-            onLanguageChange={(selectedTheme) => i18n.changeLanguage(selectedTheme)}
+            onLanguageChange={handleLanguageChange}
           />
           {/* Toggle Button */}
           <button className="p-2 lg:hidden" onClick={() => setNavbar(!isNavbar)}>
@@ -82,10 +89,10 @@ const Header = () => {
             <SettingList
               theme={theme || themes[0].value}
               curTheme={curTheme || themes[0].value}
-              language={i18n.language}
+              language={language}
               className="flex border-t-2 bg-neutral-950 py-2 lg:hidden"
               onThemeChange={(selectedTheme) => setTheme(selectedTheme)}
-              onLanguageChange={(selectedLanguage) => i18n.changeLanguage(selectedLanguage)}
+              onLanguageChange={handleLanguageChange}
             />
           </div>
         </div>

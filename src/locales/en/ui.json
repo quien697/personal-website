@@ -4,11 +4,6 @@
     "mySkills": "My Skills",
     "technologies": "Technologies",
     "website": "Website",
-    "getInTouch": "Get In Touch",
-    "name": "name",
-    "email": "email",
-    "message": "message",
-    "sendMessage": "Send Message",
     "followMe": "Follow Me",
     "link": "Link"
   },
@@ -23,20 +18,20 @@
       "value": "about",
       "title": "About Me"
     },
-    "experience": {
-      "name": "Experience",
-      "value": "experience",
-      "title": "Experience"
+    "skills": {
+      "name": "Skills",
+      "value": "skills",
+      "title": "My Skills"
     },
     "portfolio": {
       "name": "Portfolio",
       "value": "portfolio",
       "title": "Portfolio"
     },
-    "contact": {
-      "name": "Contact",
-      "value": "contact",
-      "title": "Contact"
+    "experience": {
+      "name": "Experience",
+      "value": "experience",
+      "title": "Experience"
     }
   },
   "themes": [

@@ -38,6 +38,11 @@ export interface Location {
   country: string
 }
 
+export interface SkillGroup {
+  category: string;
+  items: string[];
+}
+
 export interface Social {
   name: string;
   url: string;

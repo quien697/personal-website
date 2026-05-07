@@ -1,3 +1,4 @@
+'use client';
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next';
 import enUI from '@/locales/en/ui.json';
@@ -10,7 +11,7 @@ const resources = {
     resume: enResume,
     ui: enUI
   },
-  zh_tw: {
+  'zh-TW': {
     resume: zhResume,
     ui: zhUI
   },

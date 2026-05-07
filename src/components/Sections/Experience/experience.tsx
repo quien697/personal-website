@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import Section from '@/components/Common/Section';
 import { useResumeData } from '@/hooks/useResumeData';
 import { useUIData } from '@/hooks/useUIData';
@@ -11,7 +10,7 @@ export default function ExperienceSection() {
 
   return (
     <Section id={navItems.experience.value} isPrimary={false} title={navItems.experience.title}>
-      <div className="relative before:content-[''] before:absolute before:top-0 before:left-[1.875rem] before:w-1 before:h-full before:bg-primary before:lg:left-[calc(50%-0.125rem)]">
+      <div className="relative before:content-[''] before:absolute before:top-0 before:left-7.5 before:w-1 before:h-full before:bg-primary before:lg:left-[calc(50%-0.125rem)]">
         {experiences.map((item, idx) => {
           return (
             <article key={idx} className={`flex w-full pl-8 mt-4 lg:pl-0 lg:mt-0 ${(idx%2 == 0 ? "" : "flex-row-reverse items-end")}`}>
