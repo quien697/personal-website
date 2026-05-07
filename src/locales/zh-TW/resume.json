@@ -99,19 +99,6 @@
       ],
       "github": "https://github.com/quien697/personal-website",
       "link": "https://tsunghsun.me/"
-    },
-    {
-      "name": "Chatwis.ai",
-      "status": "2023",
-      "description": "它是一款基於 ChatGPT API 技術構建的 iOS 行動應用程式。 主要使用 Swift 進行開發與 Storyboard UI 設計，並利用 RxSwift 和 MVVM 的結構來實現，也使用 Core Data 儲存資料。",
-      "image": "/assets/portfolio-chatwis.png",
-      "technologies": [
-        "iOS",
-        "Swift",
-        "RxSwift",
-        "MVVM",
-        "Core Data"
-      ]
     }
   ]
 }

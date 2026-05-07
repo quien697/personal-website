@@ -100,19 +100,6 @@
       ],
       "github": "https://github.com/quien697/personal-website",
       "link": "https://tsunghsun.me/"
-    },
-    {
-      "name": "Chatwis.ai",
-      "status": "2023",
-      "description": "It is an iOS mobile app that built on ChatGPT API technologies. We mainly use Swift for development and Storyboard for UI design. We implement using RxSwift and the MVVM structure, and we also utilize Core Data to store data locally.",
-      "image": "/assets/portfolio-chatwis.png",
-      "technologies": [
-        "iOS",
-        "Swift",
-        "RxSwift",
-        "MVVM",
-        "Core Data"
-      ]
     }
   ]
 }
