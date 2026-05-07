@@ -7,7 +7,7 @@ export const PHONE: string = '+886 0988-215-184';
 
 export const LANGUAGES: Language[] = [
   { name: 'English', value: 'en', },
-  { name: '繁體中文', value: 'zh_tw', },
+  { name: '繁體中文', value: 'zh-TW', },
 ]
 
 export const ICON_SIZE_MD: number = 35;

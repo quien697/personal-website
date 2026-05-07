@@ -10,7 +10,7 @@ const resources = {
     resume: enResume,
     ui: enUI
   },
-  zh_tw: {
+  'zh-TW': {
     resume: zhResume,
     ui: zhUI
   },
